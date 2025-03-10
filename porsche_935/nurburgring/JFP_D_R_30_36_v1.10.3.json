@@ -1,0 +1,86 @@
+{
+	"carName": "porsche_935",
+	"basicSetup":
+	{
+		"tyres":
+		{
+			"tyreCompound": 0,
+			"tyrePressure": [ 39, 43, 31, 33 ]
+		},
+		"alignment":
+		{
+			"camber": [ 0, 0, 0, 0 ],
+			"toe": [ 10, 10, 40, 40 ],
+			"staticCamber": [ -1.5026493072509766, -1.4948787689208984, -2.4873161315917969, -2.4857742786407471 ],
+			"toeOutLinear": [ 0.0013367866631597281, 0.0013288266491144896, -0.00058345263823866844, -0.00058339373208582401 ],
+			"casterLF": 30,
+			"casterRF": 30,
+			"steerRatio": 1
+		},
+		"electronics":
+		{
+			"tC1": 0,
+			"tC2": 0,
+			"abs": 4,
+			"eCUMap": 0,
+			"fuelMix": 0,
+			"telemetryLaps": 99
+		},
+		"strategy":
+		{
+			"fuel": 48,
+			"nPitStops": 0,
+			"tyreSet": 1,
+			"frontBrakePadCompound": 0,
+			"rearBrakePadCompound": 0,
+			"pitStrategy": [
+				{
+					"fuelToAdd": 0,
+					"tyres":
+					{
+						"tyreCompound": 0,
+						"tyrePressure": [ 40, 44, 32, 34 ]
+					},
+					"tyreSet": 2,
+					"frontBrakePadCompound": 0,
+					"rearBrakePadCompound": 0
+				}
+			],
+			"fuelPerLap": 2.6454010009765625
+		}
+	},
+	"advancedSetup":
+	{
+		"mechanicalBalance":
+		{
+			"aRBFront": 6,
+			"aRBRear": 0,
+			"wheelRate": [ 0, 0, 3, 3 ],
+			"bumpStopRateUp": [ 0, 0, 0, 0 ],
+			"bumpStopRateDn": [ 0, 0, 10, 10 ],
+			"bumpStopWindow": [ 120, 120, 0, 0 ],
+			"brakeTorque": 20,
+			"brakeBias": 30
+		},
+		"dampers":
+		{
+			"bumpSlow": [ 4, 4, 8, 8 ],
+			"bumpFast": [ 0, 0, 0, 0 ],
+			"reboundSlow": [ 10, 10, 11, 11 ],
+			"reboundFast": [ 8, 8, 12, 12 ]
+		},
+		"aeroBalance":
+		{
+			"rideHeight": [ 0, 11, 14, 18 ],
+			"rodLength": [ -23.479818344116211, -23.479818344116211, -46.084522247314453, -46.084522247314453 ],
+			"splitter": 0,
+			"rearWing": 9,
+			"brakeDuct": [ 3, 6 ]
+		},
+		"drivetrain":
+		{
+			"preload": 0
+		}
+	},
+	"trackBopType": 34
+}

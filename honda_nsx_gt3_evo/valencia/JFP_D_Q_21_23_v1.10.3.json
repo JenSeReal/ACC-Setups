@@ -5,30 +5,30 @@
 		"tyres":
 		{
 			"tyreCompound": 0,
-			"tyrePressure": [ 60, 50, 52, 46 ]
+			"tyrePressure": [ 61, 51, 53, 47 ]
 		},
 		"alignment":
 		{
 			"camber": [ 10, 10, 0, 0 ],
-			"toe": [ 10, 10, 45, 45 ],
-			"staticCamber": [ -2.1758565902709961, -2.181530237197876, -3.1377716064453125, -3.1420912742614746 ],
-			"toeOutLinear": [ 0.0012317156651988626, 0.001231722068041563, 0.00065560813527554274, 0.0006556352018378675 ],
+			"toe": [ 10, 10, 50, 50 ],
+			"staticCamber": [ -2.1754250526428223, -2.1809422969818115, -3.1351282596588135, -3.1394472122192383 ],
+			"toeOutLinear": [ 0.0012319613015279174, 0.0012319661909714341, 0.0008177874842658639, 0.00081783364294096828 ],
 			"casterLF": 0,
 			"casterRF": 0,
 			"steerRatio": 0
 		},
 		"electronics":
 		{
-			"tC1": 1,
+			"tC1": 2,
 			"tC2": 0,
-			"abs": 3,
+			"abs": 2,
 			"eCUMap": 2,
 			"fuelMix": 0,
 			"telemetryLaps": 4
 		},
 		"strategy":
 		{
-			"fuel": 22,
+			"fuel": 18,
 			"nPitStops": 0,
 			"tyreSet": 2,
 			"frontBrakePadCompound": 0,
@@ -39,14 +39,14 @@
 					"tyres":
 					{
 						"tyreCompound": 0,
-						"tyrePressure": [ 53, 51, 56, 52 ]
+						"tyrePressure": [ 61, 51, 53, 47 ]
 					},
 					"tyreSet": 2,
 					"frontBrakePadCompound": 0,
 					"rearBrakePadCompound": 0
 				}
 			],
-			"fuelPerLap": 2.3698830604553223
+			"fuelPerLap": 2.3249342441558838
 		}
 	},
 	"advancedSetup":
@@ -58,7 +58,7 @@
 			"wheelRate": [ 7, 7, 6, 6 ],
 			"bumpStopRateUp": [ 7, 7, 6, 6 ],
 			"bumpStopRateDn": [ 0, 0, 10, 10 ],
-			"bumpStopWindow": [ 2, 2, 25, 25 ],
+			"bumpStopWindow": [ 17, 17, 40, 40 ],
 			"brakeTorque": 20,
 			"brakeBias": 25
 		},
@@ -72,10 +72,10 @@
 		"aeroBalance":
 		{
 			"rideHeight": [ 0, 6, 14, 18 ],
-			"rodLength": [ -12.043764114379883, -12.043764114379883, 1.3678679466247559, 1.3678679466247559 ],
+			"rodLength": [ -12.088871002197266, -12.088871002197266, 1.2676573991775513, 1.2676573991775513 ],
 			"splitter": 0,
 			"rearWing": 9,
-			"brakeDuct": [ 4, 4 ]
+			"brakeDuct": [ 3, 3 ]
 		},
 		"drivetrain":
 		{
